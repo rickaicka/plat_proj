@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3e0dc3eec815ee449b6eaa25943eb3a9
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 180629
+  packageName: POLYGON Kids - Low Poly 3D Art by Synty
+  packageVersion: 1.1.1
+  assetPath: Assets/PolygonKids/Models/Collision/SM_Prop_Ball_08_Convex.asset
+  uploadId: 722771

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e95c629417352bc46a216284dcf0b102
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 180629
+  packageName: POLYGON Kids - Low Poly 3D Art by Synty
+  packageVersion: 1.1.1
+  assetPath: Assets/PolygonKids/Shaders/URP/POLYGON_Zombies.shadergraph
+  uploadId: 722771
