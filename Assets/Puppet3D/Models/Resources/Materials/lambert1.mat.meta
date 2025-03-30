@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 017c039cb2b8a0749ac898ac3ae86aec
+timeCreated: 1540211826
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 111554
+  packageName: Puppet3D
+  packageVersion: 1.11
+  assetPath: Assets/Puppet3D/Models/Resources/Materials/lambert1.mat
+  uploadId: 496677

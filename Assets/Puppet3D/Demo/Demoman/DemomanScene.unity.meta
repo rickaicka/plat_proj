@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 87fbfea6299ca644f85d1f29890473b0
+timeCreated: 1516628703
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 111554
+  packageName: Puppet3D
+  packageVersion: 1.11
+  assetPath: Assets/Puppet3D/Demo/Demoman/DemomanScene.unity
+  uploadId: 496677

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2f58d864c0d2c014ca94ae35bce4eab9
+timeCreated: 1511443517
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 111554
+  packageName: Puppet3D
+  packageVersion: 1.11
+  assetPath: Assets/Puppet3D/Demo/Demoman/Models/Materials/Demoman_MAT.mat
+  uploadId: 496677

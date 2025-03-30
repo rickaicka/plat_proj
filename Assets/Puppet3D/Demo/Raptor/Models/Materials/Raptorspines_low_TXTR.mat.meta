@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2891da741b70c8548bca874f08081347
+timeCreated: 1550149913
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 111554
+  packageName: Puppet3D
+  packageVersion: 1.11
+  assetPath: Assets/Puppet3D/Demo/Raptor/Models/Materials/Raptorspines_low_TXTR.mat
+  uploadId: 496677

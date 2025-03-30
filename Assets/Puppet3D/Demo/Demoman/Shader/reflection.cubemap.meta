@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f834d24e66031d14fa55b6f5ca02eed9
+timeCreated: 1511444532
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 111554
+  packageName: Puppet3D
+  packageVersion: 1.11
+  assetPath: Assets/Puppet3D/Demo/Demoman/Shader/reflection.cubemap
+  uploadId: 496677

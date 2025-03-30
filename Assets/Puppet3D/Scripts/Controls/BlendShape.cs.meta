@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: acc1a12b0fe628442bb6679129a74d22
+timeCreated: 1529063697
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 111554
+  packageName: Puppet3D
+  packageVersion: 1.11
+  assetPath: Assets/Puppet3D/Scripts/Controls/BlendShape.cs
+  uploadId: 496677

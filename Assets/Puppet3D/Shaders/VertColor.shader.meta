@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 732e66250a028304194ed685769abcfc
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 111554
+  packageName: Puppet3D
+  packageVersion: 1.11
+  assetPath: Assets/Puppet3D/Shaders/VertColor.shader
+  uploadId: 496677

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: fc4d24b14e0c1b348a5d268b83339778
+timeCreated: 1551707658
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 111554
+  packageName: Puppet3D
+  packageVersion: 1.11
+  assetPath: Assets/Puppet3D/Demo/Raptor/raptorScene.unity
+  uploadId: 496677

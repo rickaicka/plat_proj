@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6692c47d-4054-4ca5-a39c-8b91543ed8bf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/NewLayer.terrainlayer" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/NewLayer.terrainlayer.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.PlatProj/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PlatProj/.idea/projectSettingsUpdater.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PlatProj/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PlatProj/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Sweater_01.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Sweater_01.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Controllers/PlayerControllerAnimation.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Controllers/PlayerControllerAnimation.controller" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +36,7 @@
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7924a40bfe2b4f4ba8d344b525f2554e8c00/e9/e8a932f7/Input.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7924a40bfe2b4f4ba8d344b525f2554e8c00/ea/b77d1538/InputUnsafeUtility.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8e5a634840fd4c6b9a0a867163b727ec1df200/7d/b082ccfd/Component.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8e5a634840fd4c6b9a0a867163b727ec1df200/dc/630cc622/Vector3.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/d851e39d164043519e84d650683ea1592ac00/bc/6a813417/CharacterController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@38fdc9b96878/Runtime/Debugging/DebugUpdater.cs" root0="SKIP_HIGHLIGHTING" />
@@ -131,7 +129,7 @@
       <updated>1741745729535</updated>
       <workItem from="1741745733112" duration="12966000" />
       <workItem from="1742555287606" duration="6219000" />
-      <workItem from="1743209027619" duration="25743000" />
+      <workItem from="1743209027619" duration="47319000" />
     </task>
     <servers />
   </component>

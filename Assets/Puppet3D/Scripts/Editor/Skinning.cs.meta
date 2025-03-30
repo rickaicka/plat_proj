@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 57d94698869b543e28c090d3ee130d99
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 111554
+  packageName: Puppet3D
+  packageVersion: 1.11
+  assetPath: Assets/Puppet3D/Scripts/Editor/Skinning.cs
+  uploadId: 496677

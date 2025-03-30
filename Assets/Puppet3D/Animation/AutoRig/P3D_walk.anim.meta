@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ef31de067498c61419837748b885cbc9
+timeCreated: 1516627774
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 111554
+  packageName: Puppet3D
+  packageVersion: 1.11
+  assetPath: Assets/Puppet3D/Animation/AutoRig/P3D_walk.anim
+  uploadId: 496677

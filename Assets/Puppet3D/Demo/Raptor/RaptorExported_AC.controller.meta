@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 402a3eaa81e6cdb47bb717641341df51
+timeCreated: 1556024532
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 111554
+  packageName: Puppet3D
+  packageVersion: 1.11
+  assetPath: Assets/Puppet3D/Demo/Raptor/RaptorExported_AC.controller
+  uploadId: 496677

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a79fdcb2a7aaf4d37badc09fbf18ec8c
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 111554
+  packageName: Puppet3D
+  packageVersion: 1.11
+  assetPath: Assets/Puppet3D/Scripts/Data/Bakedmesh.cs
+  uploadId: 496677

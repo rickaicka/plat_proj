@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: be27145056e4d4e6eb16d27ace82457b
+timeCreated: 1478007307
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 111554
+  packageName: Puppet3D
+  packageVersion: 1.11
+  assetPath: Assets/Puppet3D/Scripts/Util/Puppet3DAnimatorController.cs
+  uploadId: 496677

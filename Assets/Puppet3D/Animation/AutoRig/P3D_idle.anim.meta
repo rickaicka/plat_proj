@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 818a7ac1e0c9a4446bbc2545dded4e28
+timeCreated: 1516885794
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 111554
+  packageName: Puppet3D
+  packageVersion: 1.11
+  assetPath: Assets/Puppet3D/Animation/AutoRig/P3D_idle.anim
+  uploadId: 496677

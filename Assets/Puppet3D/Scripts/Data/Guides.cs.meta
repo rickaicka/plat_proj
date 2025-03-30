@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 496e597ed02854d6b887bb857d1d7d64
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 111554
+  packageName: Puppet3D
+  packageVersion: 1.11
+  assetPath: Assets/Puppet3D/Scripts/Data/Guides.cs
+  uploadId: 496677

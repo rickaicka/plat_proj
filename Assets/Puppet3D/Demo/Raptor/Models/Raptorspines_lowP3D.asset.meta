@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 93d740a7834a9b64ea4ed34ae2b314f3
+timeCreated: 1551965811
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 111554
+  packageName: Puppet3D
+  packageVersion: 1.11
+  assetPath: Assets/Puppet3D/Demo/Raptor/Models/Raptorspines_lowP3D.asset
+  uploadId: 496677

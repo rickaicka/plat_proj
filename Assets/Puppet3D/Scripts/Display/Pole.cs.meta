@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 034d3570244e8ea47b418775812ccf43
+timeCreated: 1502973344
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 111554
+  packageName: Puppet3D
+  packageVersion: 1.11
+  assetPath: Assets/Puppet3D/Scripts/Display/Pole.cs
+  uploadId: 496677

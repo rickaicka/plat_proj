@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8e11d0344762e2946ba57bb6896cf168
+timeCreated: 1516627774
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 111554
+  packageName: Puppet3D
+  packageVersion: 1.11
+  assetPath: Assets/Puppet3D/Animation/AutoRig/P3D_AnimatorController.controller
+  uploadId: 496677

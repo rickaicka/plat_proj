@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: bddc72c37ff1b40579e793ee5efdc679
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 111554
+  packageName: Puppet3D
+  packageVersion: 1.11
+  assetPath: Assets/Puppet3D/Shaders/BlackAndWhite.shader
+  uploadId: 496677

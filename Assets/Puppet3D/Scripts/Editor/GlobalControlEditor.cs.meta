@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: df82b9e724a42914a88362d21edddd64
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 111554
+  packageName: Puppet3D
+  packageVersion: 1.11
+  assetPath: Assets/Puppet3D/Scripts/Editor/GlobalControlEditor.cs
+  uploadId: 496677

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 66f84d28bdc3d8144bb510062608db47
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 111554
+  packageName: Puppet3D
+  packageVersion: 1.11
+  assetPath: Assets/Puppet3D/Scripts/Controls/SkinWeightControl.cs
+  uploadId: 496677
