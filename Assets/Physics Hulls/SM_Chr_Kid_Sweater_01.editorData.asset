@@ -1,0 +1,1378 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57d507e28e164ca43927bfa73379f646, type: 3}
+  m_Name: SM_Chr_Kid_Sweater_01.editorData
+  m_EditorClassIdentifier: 
+  runtimeData: {fileID: 11400000, guid: 816bd608f029e0f4fb44ee73b856c43a, type: 2}
+  defaultAddRigidbody: 1
+  defaultMass: 1
+  defaultLinearDrag: 0
+  defaultAngularDrag: 0.05
+  defaultLinearDamping: 0
+  defaultAngularDamping: 0
+  defaultMaterial: {fileID: 0}
+  defaultColliderType: 0
+  defaultIsTrigger: 0
+  defaultMaxPlanes: 255
+  boneData:
+  - targetBoneName: Root
+    addRigidbody: 1
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 0
+    addJoint: 0
+    jointType: 0
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: Hips
+    addRigidbody: 1
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 1
+    addJoint: 0
+    jointType: 2
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: Spine_01
+    addRigidbody: 1
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 1
+    addJoint: 0
+    jointType: 2
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: Spine_02
+    addRigidbody: 1
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 1
+    addJoint: 0
+    jointType: 2
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: Spine_03
+    addRigidbody: 1
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 1
+    addJoint: 0
+    jointType: 2
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: Neck
+    addRigidbody: 1
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 1
+    addJoint: 0
+    jointType: 2
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: Head
+    addRigidbody: 1
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 1
+    addJoint: 0
+    jointType: 2
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: Eyes_Left
+    addRigidbody: 1
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 0
+    addJoint: 0
+    jointType: 0
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: Eyes_Right
+    addRigidbody: 1
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 0
+    addJoint: 0
+    jointType: 0
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: Eyebrow_Left
+    addRigidbody: 1
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 0
+    addJoint: 0
+    jointType: 0
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: Eyebrow_Right
+    addRigidbody: 1
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 0
+    addJoint: 0
+    jointType: 0
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: Clavicle_L
+    addRigidbody: 1
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 1
+    addJoint: 0
+    jointType: 2
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: Shoulder_L
+    addRigidbody: 1
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 1
+    addJoint: 0
+    jointType: 2
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: Elbow_L
+    addRigidbody: 1
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 1
+    addJoint: 0
+    jointType: 2
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: Hand_L
+    addRigidbody: 1
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 1
+    addJoint: 0
+    jointType: 2
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: Thumb_01
+    addRigidbody: 1
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 1
+    addJoint: 0
+    jointType: 2
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: Thumb_02
+    addRigidbody: 1
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 1
+    addJoint: 0
+    jointType: 2
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: Thumb_03
+    addRigidbody: 1
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 1
+    addJoint: 0
+    jointType: 2
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: IndexFinger_01
+    addRigidbody: 1
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 1
+    addJoint: 0
+    jointType: 2
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: IndexFinger_02
+    addRigidbody: 1
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 1
+    addJoint: 0
+    jointType: 2
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: IndexFinger_03
+    addRigidbody: 1
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 1
+    addJoint: 0
+    jointType: 2
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: IndexFinger_04
+    addRigidbody: 1
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 0
+    addJoint: 0
+    jointType: 0
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: Finger_01
+    addRigidbody: 1
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 1
+    addJoint: 0
+    jointType: 2
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: Finger_02
+    addRigidbody: 1
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 1
+    addJoint: 0
+    jointType: 2
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: Finger_03
+    addRigidbody: 1
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 1
+    addJoint: 0
+    jointType: 2
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: Finger_04
+    addRigidbody: 1
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 0
+    addJoint: 0
+    jointType: 0
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: Clavicle_R
+    addRigidbody: 1
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 1
+    addJoint: 0
+    jointType: 2
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: Shoulder_R
+    addRigidbody: 1
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 1
+    addJoint: 0
+    jointType: 2
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: Elbow_R
+    addRigidbody: 1
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 1
+    addJoint: 0
+    jointType: 2
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: Hand_R
+    addRigidbody: 1
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 1
+    addJoint: 0
+    jointType: 2
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: Thumb_01 1
+    addRigidbody: 1
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 1
+    addJoint: 0
+    jointType: 2
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: Thumb_02 1
+    addRigidbody: 1
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 1
+    addJoint: 0
+    jointType: 2
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: Thumb_03 1
+    addRigidbody: 1
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 1
+    addJoint: 0
+    jointType: 2
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: IndexFinger_01 1
+    addRigidbody: 1
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 1
+    addJoint: 0
+    jointType: 2
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: IndexFinger_02 1
+    addRigidbody: 1
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 1
+    addJoint: 0
+    jointType: 2
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: IndexFinger_03 1
+    addRigidbody: 1
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 1
+    addJoint: 0
+    jointType: 2
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: IndexFinger_04 1
+    addRigidbody: 1
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 0
+    addJoint: 0
+    jointType: 0
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: Finger_01 1
+    addRigidbody: 1
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 1
+    addJoint: 0
+    jointType: 2
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: Finger_02 1
+    addRigidbody: 1
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 1
+    addJoint: 0
+    jointType: 2
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: Finger_03 1
+    addRigidbody: 1
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 1
+    addJoint: 0
+    jointType: 2
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: Finger_04 1
+    addRigidbody: 1
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 0
+    addJoint: 0
+    jointType: 0
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: UpperLeg_R
+    addRigidbody: 1
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 1
+    addJoint: 0
+    jointType: 2
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: LowerLeg_R
+    addRigidbody: 1
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 1
+    addJoint: 0
+    jointType: 2
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: Ankle_R
+    addRigidbody: 1
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 1
+    addJoint: 0
+    jointType: 2
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: Ball_R
+    addRigidbody: 1
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 1
+    addJoint: 0
+    jointType: 2
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: Toes_R
+    addRigidbody: 1
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 0
+    addJoint: 0
+    jointType: 0
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: UpperLeg_L
+    addRigidbody: 1
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 1
+    addJoint: 0
+    jointType: 2
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: LowerLeg_L
+    addRigidbody: 1
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 1
+    addJoint: 0
+    jointType: 2
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: Ankle_L
+    addRigidbody: 1
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 1
+    addJoint: 0
+    jointType: 2
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: Ball_L
+    addRigidbody: 1
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 1
+    addJoint: 0
+    jointType: 2
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: Toes_L
+    addRigidbody: 1
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 0
+    addJoint: 0
+    jointType: 0
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  boneHullData:
+  - targetBoneName: Hips
+    type: 0
+    colliderType: 0
+    previewColour: {r: 0, g: 1, b: 1, a: 0.7}
+    hullMesh: {fileID: 5013372634365887672, guid: 816bd608f029e0f4fb44ee73b856c43a, type: 2}
+    material: {fileID: 0}
+    isTrigger: 0
+    maxPlanes: 255
+    minThreshold: 0.4
+    maxThreshold: 1
+    selectedFaces: 
+    cachedTriangleVertices: []
+  - targetBoneName: Spine_01
+    type: 0
+    colliderType: 0
+    previewColour: {r: 1, g: 0, b: 1, a: 0.7}
+    hullMesh: {fileID: -6119414723348464750, guid: 816bd608f029e0f4fb44ee73b856c43a, type: 2}
+    material: {fileID: 0}
+    isTrigger: 0
+    maxPlanes: 255
+    minThreshold: 0.4
+    maxThreshold: 1
+    selectedFaces: 
+    cachedTriangleVertices: []
+  - targetBoneName: Spine_02
+    type: 0
+    colliderType: 0
+    previewColour: {r: 1, g: 1, b: 0, a: 0.7}
+    hullMesh: {fileID: 6330242202018662386, guid: 816bd608f029e0f4fb44ee73b856c43a, type: 2}
+    material: {fileID: 0}
+    isTrigger: 0
+    maxPlanes: 255
+    minThreshold: 0.4
+    maxThreshold: 1
+    selectedFaces: 
+    cachedTriangleVertices: []
+  - targetBoneName: Spine_03
+    type: 0
+    colliderType: 0
+    previewColour: {r: 1, g: 0, b: 0, a: 0.7}
+    hullMesh: {fileID: -7981596681049262986, guid: 816bd608f029e0f4fb44ee73b856c43a, type: 2}
+    material: {fileID: 0}
+    isTrigger: 0
+    maxPlanes: 255
+    minThreshold: 0.4
+    maxThreshold: 1
+    selectedFaces: 
+    cachedTriangleVertices: []
+  - targetBoneName: Neck
+    type: 0
+    colliderType: 0
+    previewColour: {r: 0, g: 1, b: 0, a: 0.7}
+    hullMesh: {fileID: -4547973839643103694, guid: 816bd608f029e0f4fb44ee73b856c43a, type: 2}
+    material: {fileID: 0}
+    isTrigger: 0
+    maxPlanes: 255
+    minThreshold: 0.4
+    maxThreshold: 1
+    selectedFaces: 
+    cachedTriangleVertices: []
+  - targetBoneName: Head
+    type: 0
+    colliderType: 0
+    previewColour: {r: 0, g: 0, b: 1, a: 0.7}
+    hullMesh: {fileID: 5238381162969255614, guid: 816bd608f029e0f4fb44ee73b856c43a, type: 2}
+    material: {fileID: 0}
+    isTrigger: 0
+    maxPlanes: 255
+    minThreshold: 0.4
+    maxThreshold: 1
+    selectedFaces: 
+    cachedTriangleVertices: []
+  - targetBoneName: Clavicle_L
+    type: 0
+    colliderType: 0
+    previewColour: {r: 1, g: 0.5, b: 0, a: 0.7}
+    hullMesh: {fileID: -4095066751043193916, guid: 816bd608f029e0f4fb44ee73b856c43a, type: 2}
+    material: {fileID: 0}
+    isTrigger: 0
+    maxPlanes: 255
+    minThreshold: 0.4
+    maxThreshold: 1
+    selectedFaces: 
+    cachedTriangleVertices: []
+  - targetBoneName: Shoulder_L
+    type: 0
+    colliderType: 0
+    previewColour: {r: 1, g: 0, b: 0.5, a: 0.7}
+    hullMesh: {fileID: -8693152511201241070, guid: 816bd608f029e0f4fb44ee73b856c43a, type: 2}
+    material: {fileID: 0}
+    isTrigger: 0
+    maxPlanes: 255
+    minThreshold: 0.4
+    maxThreshold: 1
+    selectedFaces: 
+    cachedTriangleVertices: []
+  - targetBoneName: Elbow_L
+    type: 0
+    colliderType: 0
+    previewColour: {r: 0.5, g: 1, b: 0, a: 0.7}
+    hullMesh: {fileID: -2449156956358783688, guid: 816bd608f029e0f4fb44ee73b856c43a, type: 2}
+    material: {fileID: 0}
+    isTrigger: 0
+    maxPlanes: 255
+    minThreshold: 0.4
+    maxThreshold: 1
+    selectedFaces: 
+    cachedTriangleVertices: []
+  - targetBoneName: Hand_L
+    type: 0
+    colliderType: 0
+    previewColour: {r: 0, g: 1, b: 0.5, a: 0.7}
+    hullMesh: {fileID: -7930288532045623698, guid: 816bd608f029e0f4fb44ee73b856c43a, type: 2}
+    material: {fileID: 0}
+    isTrigger: 0
+    maxPlanes: 255
+    minThreshold: 0.4
+    maxThreshold: 1
+    selectedFaces: 
+    cachedTriangleVertices: []
+  - targetBoneName: Thumb_01
+    type: 0
+    colliderType: 0
+    previewColour: {r: 0.5, g: 0, b: 1, a: 0.7}
+    hullMesh: {fileID: 3905122515071063333, guid: 816bd608f029e0f4fb44ee73b856c43a, type: 2}
+    material: {fileID: 0}
+    isTrigger: 0
+    maxPlanes: 255
+    minThreshold: 0.4
+    maxThreshold: 1
+    selectedFaces: 
+    cachedTriangleVertices: []
+  - targetBoneName: Thumb_02
+    type: 0
+    colliderType: 0
+    previewColour: {r: 0, g: 0.5, b: 1, a: 0.7}
+    hullMesh: {fileID: -6886999696521992225, guid: 816bd608f029e0f4fb44ee73b856c43a, type: 2}
+    material: {fileID: 0}
+    isTrigger: 0
+    maxPlanes: 255
+    minThreshold: 0.4
+    maxThreshold: 1
+    selectedFaces: 
+    cachedTriangleVertices: []
+  - targetBoneName: Thumb_03
+    type: 0
+    colliderType: 0
+    previewColour: {r: 0, g: 1, b: 1, a: 0.7}
+    hullMesh: {fileID: 1796774601604301558, guid: 816bd608f029e0f4fb44ee73b856c43a, type: 2}
+    material: {fileID: 0}
+    isTrigger: 0
+    maxPlanes: 255
+    minThreshold: 0.4
+    maxThreshold: 1
+    selectedFaces: 
+    cachedTriangleVertices: []
+  - targetBoneName: IndexFinger_01
+    type: 0
+    colliderType: 0
+    previewColour: {r: 1, g: 0, b: 1, a: 0.7}
+    hullMesh: {fileID: -7092360665787189081, guid: 816bd608f029e0f4fb44ee73b856c43a, type: 2}
+    material: {fileID: 0}
+    isTrigger: 0
+    maxPlanes: 255
+    minThreshold: 0.4
+    maxThreshold: 1
+    selectedFaces: 
+    cachedTriangleVertices: []
+  - targetBoneName: IndexFinger_02
+    type: 0
+    colliderType: 0
+    previewColour: {r: 1, g: 1, b: 0, a: 0.7}
+    hullMesh: {fileID: 4469239425559509577, guid: 816bd608f029e0f4fb44ee73b856c43a, type: 2}
+    material: {fileID: 0}
+    isTrigger: 0
+    maxPlanes: 255
+    minThreshold: 0.4
+    maxThreshold: 1
+    selectedFaces: 
+    cachedTriangleVertices: []
+  - targetBoneName: IndexFinger_03
+    type: 0
+    colliderType: 0
+    previewColour: {r: 1, g: 0, b: 0, a: 0.7}
+    hullMesh: {fileID: -1614413598599922770, guid: 816bd608f029e0f4fb44ee73b856c43a, type: 2}
+    material: {fileID: 0}
+    isTrigger: 0
+    maxPlanes: 255
+    minThreshold: 0.4
+    maxThreshold: 1
+    selectedFaces: 
+    cachedTriangleVertices: []
+  - targetBoneName: Finger_01
+    type: 0
+    colliderType: 0
+    previewColour: {r: 0, g: 1, b: 0, a: 0.7}
+    hullMesh: {fileID: -6588335983180117980, guid: 816bd608f029e0f4fb44ee73b856c43a, type: 2}
+    material: {fileID: 0}
+    isTrigger: 0
+    maxPlanes: 255
+    minThreshold: 0.4
+    maxThreshold: 1
+    selectedFaces: 
+    cachedTriangleVertices: []
+  - targetBoneName: Finger_02
+    type: 0
+    colliderType: 0
+    previewColour: {r: 0, g: 0, b: 1, a: 0.7}
+    hullMesh: {fileID: 6575198985025135134, guid: 816bd608f029e0f4fb44ee73b856c43a, type: 2}
+    material: {fileID: 0}
+    isTrigger: 0
+    maxPlanes: 255
+    minThreshold: 0.4
+    maxThreshold: 1
+    selectedFaces: 
+    cachedTriangleVertices: []
+  - targetBoneName: Finger_03
+    type: 0
+    colliderType: 0
+    previewColour: {r: 1, g: 0.5, b: 0, a: 0.7}
+    hullMesh: {fileID: 5403262662271091953, guid: 816bd608f029e0f4fb44ee73b856c43a, type: 2}
+    material: {fileID: 0}
+    isTrigger: 0
+    maxPlanes: 255
+    minThreshold: 0.4
+    maxThreshold: 1
+    selectedFaces: 
+    cachedTriangleVertices: []
+  - targetBoneName: Clavicle_R
+    type: 0
+    colliderType: 0
+    previewColour: {r: 1, g: 0, b: 0.5, a: 0.7}
+    hullMesh: {fileID: 1258376065256448211, guid: 816bd608f029e0f4fb44ee73b856c43a, type: 2}
+    material: {fileID: 0}
+    isTrigger: 0
+    maxPlanes: 255
+    minThreshold: 0.4
+    maxThreshold: 1
+    selectedFaces: 
+    cachedTriangleVertices: []
+  - targetBoneName: Shoulder_R
+    type: 0
+    colliderType: 0
+    previewColour: {r: 0.5, g: 1, b: 0, a: 0.7}
+    hullMesh: {fileID: -4376344934467351645, guid: 816bd608f029e0f4fb44ee73b856c43a, type: 2}
+    material: {fileID: 0}
+    isTrigger: 0
+    maxPlanes: 255
+    minThreshold: 0.4
+    maxThreshold: 1
+    selectedFaces: 
+    cachedTriangleVertices: []
+  - targetBoneName: Elbow_R
+    type: 0
+    colliderType: 0
+    previewColour: {r: 0, g: 1, b: 0.5, a: 0.7}
+    hullMesh: {fileID: 2641568480119054457, guid: 816bd608f029e0f4fb44ee73b856c43a, type: 2}
+    material: {fileID: 0}
+    isTrigger: 0
+    maxPlanes: 255
+    minThreshold: 0.4
+    maxThreshold: 1
+    selectedFaces: 
+    cachedTriangleVertices: []
+  - targetBoneName: Hand_R
+    type: 0
+    colliderType: 0
+    previewColour: {r: 0.5, g: 0, b: 1, a: 0.7}
+    hullMesh: {fileID: 7666676175435767515, guid: 816bd608f029e0f4fb44ee73b856c43a, type: 2}
+    material: {fileID: 0}
+    isTrigger: 0
+    maxPlanes: 255
+    minThreshold: 0.4
+    maxThreshold: 1
+    selectedFaces: 
+    cachedTriangleVertices: []
+  - targetBoneName: Thumb_01 1
+    type: 0
+    colliderType: 0
+    previewColour: {r: 0, g: 0.5, b: 1, a: 0.7}
+    hullMesh: {fileID: -2549086227810321910, guid: 816bd608f029e0f4fb44ee73b856c43a, type: 2}
+    material: {fileID: 0}
+    isTrigger: 0
+    maxPlanes: 255
+    minThreshold: 0.4
+    maxThreshold: 1
+    selectedFaces: 
+    cachedTriangleVertices: []
+  - targetBoneName: Thumb_02 1
+    type: 0
+    colliderType: 0
+    previewColour: {r: 0, g: 1, b: 1, a: 0.7}
+    hullMesh: {fileID: 8515922002666664343, guid: 816bd608f029e0f4fb44ee73b856c43a, type: 2}
+    material: {fileID: 0}
+    isTrigger: 0
+    maxPlanes: 255
+    minThreshold: 0.4
+    maxThreshold: 1
+    selectedFaces: 
+    cachedTriangleVertices: []
+  - targetBoneName: Thumb_03 1
+    type: 0
+    colliderType: 0
+    previewColour: {r: 1, g: 0, b: 1, a: 0.7}
+    hullMesh: {fileID: 1892167310119244663, guid: 816bd608f029e0f4fb44ee73b856c43a, type: 2}
+    material: {fileID: 0}
+    isTrigger: 0
+    maxPlanes: 255
+    minThreshold: 0.4
+    maxThreshold: 1
+    selectedFaces: 
+    cachedTriangleVertices: []
+  - targetBoneName: IndexFinger_01 1
+    type: 0
+    colliderType: 0
+    previewColour: {r: 1, g: 1, b: 0, a: 0.7}
+    hullMesh: {fileID: -2044817600130716897, guid: 816bd608f029e0f4fb44ee73b856c43a, type: 2}
+    material: {fileID: 0}
+    isTrigger: 0
+    maxPlanes: 255
+    minThreshold: 0.4
+    maxThreshold: 1
+    selectedFaces: 
+    cachedTriangleVertices: []
+  - targetBoneName: IndexFinger_02 1
+    type: 0
+    colliderType: 0
+    previewColour: {r: 1, g: 0, b: 0, a: 0.7}
+    hullMesh: {fileID: -195469938889865298, guid: 816bd608f029e0f4fb44ee73b856c43a, type: 2}
+    material: {fileID: 0}
+    isTrigger: 0
+    maxPlanes: 255
+    minThreshold: 0.4
+    maxThreshold: 1
+    selectedFaces: 
+    cachedTriangleVertices: []
+  - targetBoneName: IndexFinger_03 1
+    type: 0
+    colliderType: 0
+    previewColour: {r: 0, g: 1, b: 0, a: 0.7}
+    hullMesh: {fileID: -5267590093303406750, guid: 816bd608f029e0f4fb44ee73b856c43a, type: 2}
+    material: {fileID: 0}
+    isTrigger: 0
+    maxPlanes: 255
+    minThreshold: 0.4
+    maxThreshold: 1
+    selectedFaces: 
+    cachedTriangleVertices: []
+  - targetBoneName: Finger_01 1
+    type: 0
+    colliderType: 0
+    previewColour: {r: 0, g: 0, b: 1, a: 0.7}
+    hullMesh: {fileID: 7758446497511515436, guid: 816bd608f029e0f4fb44ee73b856c43a, type: 2}
+    material: {fileID: 0}
+    isTrigger: 0
+    maxPlanes: 255
+    minThreshold: 0.4
+    maxThreshold: 1
+    selectedFaces: 
+    cachedTriangleVertices: []
+  - targetBoneName: Finger_02 1
+    type: 0
+    colliderType: 0
+    previewColour: {r: 1, g: 0.5, b: 0, a: 0.7}
+    hullMesh: {fileID: 1808245771552471657, guid: 816bd608f029e0f4fb44ee73b856c43a, type: 2}
+    material: {fileID: 0}
+    isTrigger: 0
+    maxPlanes: 255
+    minThreshold: 0.4
+    maxThreshold: 1
+    selectedFaces: 
+    cachedTriangleVertices: []
+  - targetBoneName: Finger_03 1
+    type: 0
+    colliderType: 0
+    previewColour: {r: 1, g: 0, b: 0.5, a: 0.7}
+    hullMesh: {fileID: 6689950613912762981, guid: 816bd608f029e0f4fb44ee73b856c43a, type: 2}
+    material: {fileID: 0}
+    isTrigger: 0
+    maxPlanes: 255
+    minThreshold: 0.4
+    maxThreshold: 1
+    selectedFaces: 
+    cachedTriangleVertices: []
+  - targetBoneName: UpperLeg_R
+    type: 0
+    colliderType: 0
+    previewColour: {r: 0.5, g: 1, b: 0, a: 0.7}
+    hullMesh: {fileID: 349515071461490885, guid: 816bd608f029e0f4fb44ee73b856c43a, type: 2}
+    material: {fileID: 0}
+    isTrigger: 0
+    maxPlanes: 255
+    minThreshold: 0.4
+    maxThreshold: 1
+    selectedFaces: 
+    cachedTriangleVertices: []
+  - targetBoneName: LowerLeg_R
+    type: 0
+    colliderType: 0
+    previewColour: {r: 0, g: 1, b: 0.5, a: 0.7}
+    hullMesh: {fileID: -8826578598778335060, guid: 816bd608f029e0f4fb44ee73b856c43a, type: 2}
+    material: {fileID: 0}
+    isTrigger: 0
+    maxPlanes: 255
+    minThreshold: 0.4
+    maxThreshold: 1
+    selectedFaces: 
+    cachedTriangleVertices: []
+  - targetBoneName: Ankle_R
+    type: 0
+    colliderType: 0
+    previewColour: {r: 0.5, g: 0, b: 1, a: 0.7}
+    hullMesh: {fileID: -842966717021396286, guid: 816bd608f029e0f4fb44ee73b856c43a, type: 2}
+    material: {fileID: 0}
+    isTrigger: 0
+    maxPlanes: 255
+    minThreshold: 0.4
+    maxThreshold: 1
+    selectedFaces: 
+    cachedTriangleVertices: []
+  - targetBoneName: Ball_R
+    type: 0
+    colliderType: 0
+    previewColour: {r: 0, g: 0.5, b: 1, a: 0.7}
+    hullMesh: {fileID: 8063465210092514897, guid: 816bd608f029e0f4fb44ee73b856c43a, type: 2}
+    material: {fileID: 0}
+    isTrigger: 0
+    maxPlanes: 255
+    minThreshold: 0.4
+    maxThreshold: 1
+    selectedFaces: 
+    cachedTriangleVertices: []
+  - targetBoneName: UpperLeg_L
+    type: 0
+    colliderType: 0
+    previewColour: {r: 0, g: 1, b: 1, a: 0.7}
+    hullMesh: {fileID: 4618623101741258648, guid: 816bd608f029e0f4fb44ee73b856c43a, type: 2}
+    material: {fileID: 0}
+    isTrigger: 0
+    maxPlanes: 255
+    minThreshold: 0.4
+    maxThreshold: 1
+    selectedFaces: 
+    cachedTriangleVertices: []
+  - targetBoneName: LowerLeg_L
+    type: 0
+    colliderType: 0
+    previewColour: {r: 1, g: 0, b: 1, a: 0.7}
+    hullMesh: {fileID: -927640244081406026, guid: 816bd608f029e0f4fb44ee73b856c43a, type: 2}
+    material: {fileID: 0}
+    isTrigger: 0
+    maxPlanes: 255
+    minThreshold: 0.4
+    maxThreshold: 1
+    selectedFaces: 
+    cachedTriangleVertices: []
+  - targetBoneName: Ankle_L
+    type: 0
+    colliderType: 0
+    previewColour: {r: 1, g: 1, b: 0, a: 0.7}
+    hullMesh: {fileID: -4767358195471151430, guid: 816bd608f029e0f4fb44ee73b856c43a, type: 2}
+    material: {fileID: 0}
+    isTrigger: 0
+    maxPlanes: 255
+    minThreshold: 0.4
+    maxThreshold: 1
+    selectedFaces: 
+    cachedTriangleVertices: []
+  - targetBoneName: Ball_L
+    type: 0
+    colliderType: 0
+    previewColour: {r: 1, g: 0, b: 0, a: 0.7}
+    hullMesh: {fileID: 6984809862095109611, guid: 816bd608f029e0f4fb44ee73b856c43a, type: 2}
+    material: {fileID: 0}
+    isTrigger: 0
+    maxPlanes: 255
+    minThreshold: 0.4
+    maxThreshold: 1
+    selectedFaces: 
+    cachedTriangleVertices: []
+  sourceMesh: {fileID: 4300136, guid: a890656eebef5d94ab6c86843cebd735, type: 3}
+  sourceMeshHash:
+    data: 2b92eae417f230adbfadf24cc91f2a5479cb9972
+  suppressMeshModificationWarning: 0

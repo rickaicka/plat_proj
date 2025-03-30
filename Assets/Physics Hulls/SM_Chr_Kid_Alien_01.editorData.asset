@@ -1,0 +1,898 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57d507e28e164ca43927bfa73379f646, type: 3}
+  m_Name: SM_Chr_Kid_Alien_01.editorData
+  m_EditorClassIdentifier: 
+  runtimeData: {fileID: 11400000, guid: d575983b8dff10d44a1bca762de6f53f, type: 2}
+  defaultAddRigidbody: 1
+  defaultMass: 1
+  defaultLinearDrag: 0
+  defaultAngularDrag: 0.05
+  defaultLinearDamping: 0
+  defaultAngularDamping: 0
+  defaultMaterial: {fileID: 0}
+  defaultColliderType: 0
+  defaultIsTrigger: 0
+  defaultMaxPlanes: 255
+  boneData:
+  - targetBoneName: Root
+    addRigidbody: 0
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 0
+    addJoint: 0
+    jointType: 0
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: Hips
+    addRigidbody: 0
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 0
+    addJoint: 0
+    jointType: 0
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: Spine_01
+    addRigidbody: 0
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 0
+    addJoint: 0
+    jointType: 0
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: Spine_02
+    addRigidbody: 0
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 0
+    addJoint: 0
+    jointType: 0
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: Spine_03
+    addRigidbody: 0
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 0
+    addJoint: 0
+    jointType: 0
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: Neck
+    addRigidbody: 0
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 0
+    addJoint: 0
+    jointType: 0
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: Head
+    addRigidbody: 0
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 0
+    addJoint: 0
+    jointType: 0
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: Eyes_Left
+    addRigidbody: 0
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 0
+    addJoint: 0
+    jointType: 0
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: Eyes_Right
+    addRigidbody: 0
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 0
+    addJoint: 0
+    jointType: 0
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: Eyebrow_Left
+    addRigidbody: 0
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 0
+    addJoint: 0
+    jointType: 0
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: Eyebrow_Right
+    addRigidbody: 0
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 0
+    addJoint: 0
+    jointType: 0
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: Clavicle_L
+    addRigidbody: 0
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 0
+    addJoint: 0
+    jointType: 0
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: Shoulder_L
+    addRigidbody: 0
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 0
+    addJoint: 0
+    jointType: 0
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: Elbow_L
+    addRigidbody: 0
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 0
+    addJoint: 0
+    jointType: 0
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: Hand_L
+    addRigidbody: 0
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 0
+    addJoint: 0
+    jointType: 0
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: Thumb_01
+    addRigidbody: 0
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 0
+    addJoint: 0
+    jointType: 0
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: Thumb_02
+    addRigidbody: 0
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 0
+    addJoint: 0
+    jointType: 0
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: Thumb_03
+    addRigidbody: 0
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 0
+    addJoint: 0
+    jointType: 0
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: IndexFinger_01
+    addRigidbody: 0
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 0
+    addJoint: 0
+    jointType: 0
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: IndexFinger_02
+    addRigidbody: 0
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 0
+    addJoint: 0
+    jointType: 0
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: IndexFinger_03
+    addRigidbody: 0
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 0
+    addJoint: 0
+    jointType: 0
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: IndexFinger_04
+    addRigidbody: 0
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 0
+    addJoint: 0
+    jointType: 0
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: Finger_01
+    addRigidbody: 0
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 0
+    addJoint: 0
+    jointType: 0
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: Finger_02
+    addRigidbody: 0
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 0
+    addJoint: 0
+    jointType: 0
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: Finger_03
+    addRigidbody: 0
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 0
+    addJoint: 0
+    jointType: 0
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: Finger_04
+    addRigidbody: 0
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 0
+    addJoint: 0
+    jointType: 0
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: Clavicle_R
+    addRigidbody: 0
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 0
+    addJoint: 0
+    jointType: 0
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: Shoulder_R
+    addRigidbody: 0
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 0
+    addJoint: 0
+    jointType: 0
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: Elbow_R
+    addRigidbody: 0
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 0
+    addJoint: 0
+    jointType: 0
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: Hand_R
+    addRigidbody: 0
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 0
+    addJoint: 0
+    jointType: 0
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: Thumb_01 1
+    addRigidbody: 0
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 0
+    addJoint: 0
+    jointType: 0
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: Thumb_02 1
+    addRigidbody: 0
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 0
+    addJoint: 0
+    jointType: 0
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: Thumb_03 1
+    addRigidbody: 0
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 0
+    addJoint: 0
+    jointType: 0
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: IndexFinger_01 1
+    addRigidbody: 0
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 0
+    addJoint: 0
+    jointType: 0
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: IndexFinger_02 1
+    addRigidbody: 0
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 0
+    addJoint: 0
+    jointType: 0
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: IndexFinger_03 1
+    addRigidbody: 0
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 0
+    addJoint: 0
+    jointType: 0
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: IndexFinger_04 1
+    addRigidbody: 0
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 0
+    addJoint: 0
+    jointType: 0
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: Finger_01 1
+    addRigidbody: 0
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 0
+    addJoint: 0
+    jointType: 0
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: Finger_02 1
+    addRigidbody: 0
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 0
+    addJoint: 0
+    jointType: 0
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: Finger_03 1
+    addRigidbody: 0
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 0
+    addJoint: 0
+    jointType: 0
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: Finger_04 1
+    addRigidbody: 0
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 0
+    addJoint: 0
+    jointType: 0
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: UpperLeg_R
+    addRigidbody: 0
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 0
+    addJoint: 0
+    jointType: 0
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: LowerLeg_R
+    addRigidbody: 0
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 0
+    addJoint: 0
+    jointType: 0
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: Ankle_R
+    addRigidbody: 0
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 0
+    addJoint: 0
+    jointType: 0
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: Ball_R
+    addRigidbody: 0
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 0
+    addJoint: 0
+    jointType: 0
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: Toes_R
+    addRigidbody: 0
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 0
+    addJoint: 0
+    jointType: 0
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: UpperLeg_L
+    addRigidbody: 0
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 0
+    addJoint: 0
+    jointType: 0
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: LowerLeg_L
+    addRigidbody: 0
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 0
+    addJoint: 0
+    jointType: 0
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: Ankle_L
+    addRigidbody: 0
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 0
+    addJoint: 0
+    jointType: 0
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: Ball_L
+    addRigidbody: 0
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 0
+    addJoint: 0
+    jointType: 0
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  - targetBoneName: Toes_L
+    addRigidbody: 0
+    mass: 1
+    linearDrag: 0
+    angularDrag: 0.05
+    isKinematic: 0
+    addJoint: 0
+    jointType: 0
+    primaryAxis: {x: 0, y: 0, z: 1}
+    secondaryAxis: {x: 0, y: 1, z: 0}
+    primaryLowerAngularLimit: 0
+    primaryUpperAngularLimit: 0
+    secondaryAngularLimit: 0
+    tertiaryAngularLimit: 0
+    translationLimit: 0
+    linearDamping: 0
+    angularDamping: 0
+  boneHullData: []
+  sourceMesh: {fileID: 4300174, guid: a890656eebef5d94ab6c86843cebd735, type: 3}
+  sourceMeshHash:
+    data: 01843ed3840cc455ce94b42f3f72dd8199692856
+  suppressMeshModificationWarning: 0
