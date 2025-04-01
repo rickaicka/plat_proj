@@ -1,15 +1,24 @@
+using System;
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public float speed;
-
-    private float rotSpeed = 60;
-
+    
+    private float speed = 5;
+    
     public  float rotation;
 
-    public float gravity;
+    private float gravity = 300;
+    
+    public float colliderRadius;
+    
+    private float rotSpeed = 60;
+
+    private Boolean isReady;
+    
+    private List<Transform> enemiesList = new List<Transform>();
     
     private Vector3 valueMove;
 
@@ -20,6 +29,14 @@ public class PlayerController : MonoBehaviour
     Animator animator;
     
     Rigidbody rb;
+    
+    
+    //Drawn Gizmos
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(transform.position + transform.forward , colliderRadius);
+    }
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -88,7 +105,7 @@ public class PlayerController : MonoBehaviour
     
     void GetMouseInput()
     {
-        if (Input.GetMouseButtonUp(0))
+        if (Input.GetMouseButton(0))
         {
             if(animator.GetBool("isJumpUp"))
             {
@@ -107,6 +124,18 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    void GetEnemiesRange()
+    {
+        enemiesList.Clear();
+        foreach (Collider collider in Physics.OverlapSphere(transform.position + transform.forward * colliderRadius, colliderRadius))
+        {
+            if (collider.gameObject.CompareTag("Enemy"))
+            {
+                enemiesList.Add(collider.transform);
+            }
+        }
+    }
+    
     IEnumerator JumpUp()
     {
         speed = 2;
@@ -116,8 +145,6 @@ public class PlayerController : MonoBehaviour
         animator.SetInteger("transition", 2);
         animator.SetBool("isJumpUp", true);
         moveDirection = (Vector3.up * 6) + (Vector3.forward * dividedSpeed);
-        //moveDirection.y = 15;
-        //rb.AddForce(Vector3.up * dividedSpeed, ForceMode.VelocityChange);
         moveDirection = transform.TransformDirection(moveDirection);
         controller.Move(moveDirection * Time.deltaTime);
         rotation += Input.GetAxis("Horizontal") * rotSpeed * Time.deltaTime;
@@ -127,12 +154,30 @@ public class PlayerController : MonoBehaviour
 
     IEnumerator Attack()
     {
-        animator.SetBool("isAttacking", true);
-        animator.SetInteger("transition", 4);
-        yield return new WaitForSeconds(1.8f);
-        animator.SetBool("isAttacking", false);
-        animator.SetBool("isAttackingIdle", true);
-        animator.SetInteger("transition", 5);
+        if (!isReady)
+        {
+            isReady = true;
+            animator.SetBool("isAttacking", true);
+            animator.SetInteger("transition", 4);
+            yield return new WaitForSeconds(.5f);
+
+            GetEnemiesRange();
+            
+            foreach (Transform enemies in enemiesList)
+            {
+                EnemyController enemyC = enemies.GetComponent<EnemyController>();
+                if (enemyC != null)
+                {
+                    enemyC.GetHit();
+                }
+            }
+            
+            yield return new WaitForSeconds(1f);
+            animator.SetBool("isAttacking", false);
+            animator.SetBool("isAttackingIdle", true);
+            animator.SetInteger("transition", 5);
+            isReady = false;
+        }
     }
     
     IEnumerator StopWalk()

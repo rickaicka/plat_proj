@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - Monster_Lvl3
+  - Enemy
   layers:
   - Default
   - TransparentFX
