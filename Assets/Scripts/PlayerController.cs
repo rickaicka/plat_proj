@@ -13,6 +13,8 @@ public class PlayerController : MonoBehaviour
     private float gravity = 300;
     
     public float colliderRadius;
+
+    public float enemyDamage = 25f;
     
     private float rotSpeed = 60;
 
@@ -168,7 +170,7 @@ public class PlayerController : MonoBehaviour
                 EnemyController enemyC = enemies.GetComponent<EnemyController>();
                 if (enemyC != null)
                 {
-                    enemyC.GetHit();
+                    enemyC.GetHit(enemyDamage);
                 }
             }
             
