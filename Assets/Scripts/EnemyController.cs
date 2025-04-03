@@ -16,6 +16,7 @@ public class EnemyController : MonoBehaviour
     public float enemyDamage;
 
     private bool isReady;
+    private bool isPlayerDead;
     private Animator animator;
     private CapsuleCollider capsuleCollider;
     private NavMeshAgent agent;
@@ -116,10 +117,11 @@ public class EnemyController : MonoBehaviour
     {
         foreach (Collider collider in Physics.OverlapSphere(transform.position + transform.forward * colliderRadius, colliderRadius))
         {
+            var player = collider.gameObject.GetComponent<PlayerController>();
             if (collider.gameObject.CompareTag("Player"))
             {
-                Debug.Log("Acertou o Player");
-                //enemiesList.Add(collider.transform);
+                player.PlayerGetHit(enemyDamage);
+                isPlayerDead = player.CheckPlayerIsDead();
             }
         }
     }
@@ -142,11 +144,18 @@ public class EnemyController : MonoBehaviour
             animator.SetBool("isWalking", false);
             animator.SetBool("isAttacking", true);
             animator.SetInteger("transition", 2);
-            yield return new WaitForSeconds(.66f);
+            yield return new WaitForSeconds(.7f);
             GetPlayer();
             yield return new WaitForSeconds(1.5f);
             animator.SetBool("isAttacking", false);
             isReady = false;
+        }
+        if(isPlayerDead){
+            agent.speed = 0;
+            agent.isStopped = true;
+            animator.SetInteger("transition", 0);
+            animator.SetBool("isAttacking", false);
+            animator.SetBool("isWalking", false);
         }
     }
     

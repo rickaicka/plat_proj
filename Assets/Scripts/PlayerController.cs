@@ -144,6 +144,11 @@ public class PlayerController : MonoBehaviour
             StartCoroutine(DiedCharacter());
         }
     }
+
+    public bool CheckPlayerIsDead()
+    {
+        return animator.GetBool("isDead");
+    }
     IEnumerator JumpUp()
     {
         speed = 2;
@@ -206,12 +211,12 @@ public class PlayerController : MonoBehaviour
     }
     IEnumerator RecoveryFromHit()
     {
-        yield return new WaitForSeconds(1.2f);
-        animator.SetInteger("transition", 0);
+        yield return new WaitForSeconds(1.7f);
+        animator.SetInteger("transition", 5);
     }
     IEnumerator DiedCharacter()
     {
-        yield return new WaitForSeconds(5f);
+        yield return new WaitForSeconds(2.5f);
         //Destroy(gameObject);
         Debug.Log("Morreu");
     }

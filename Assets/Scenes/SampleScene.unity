@@ -1952,6 +1952,8 @@ MonoBehaviour:
   lookRadius: 4.51
   target: {fileID: 6469919425838486186}
   colliderRadius: 1
+  enemyDamage: 25
+  playerController: {fileID: 6469919425838911115}
 --- !u!136 &5416126849726306875
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -3473,7 +3475,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rotation: 0
   colliderRadius: 0.5
-  enemyDamage: 25
+  playerDamage: 25
+  totalHealth: 100
+  currentHealth: 0
+  animator: {fileID: 0}
 --- !u!1 &6469919425838911118
 GameObject:
   m_ObjectHideFlags: 0
