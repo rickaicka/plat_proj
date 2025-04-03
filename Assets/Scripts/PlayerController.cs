@@ -7,55 +7,43 @@ public class PlayerController : MonoBehaviour
 {
     
     private float speed = 5;
-    
     public  float rotation;
-
     private float gravity = 300;
-    
     public float colliderRadius;
-
-    public float enemyDamage = 25f;
-    
+    public float playerDamage = 25f;
     private float rotSpeed = 60;
-
+    public float totalHealth = 100f;
+    public float currentHealth;
+    
     private Boolean isReady;
-    
     private List<Transform> enemiesList = new List<Transform>();
-    
     private Vector3 valueMove;
-
     private Vector3 moveDirection;
-    
     CharacterController controller;
-    
     Animator animator;
-    
     Rigidbody rb;
-    
-    
     //Drawn Gizmos
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(transform.position + transform.forward , colliderRadius);
     }
-    
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         controller = GetComponent<CharacterController>();
         animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody>();
+        currentHealth = totalHealth;
     }
-
-    // Update is called once per frame
     void Update()
     {
-        Move();
-        GetJumpInput();
-        GetMouseInput();
+        if (!animator.GetBool("isDead"))
+        {
+            Move();
+            GetJumpInput();
+            GetMouseInput();
+        }
     }
-
     void Move()
     {
         if (controller.isGrounded)
@@ -92,7 +80,6 @@ public class PlayerController : MonoBehaviour
         moveDirection.y -= gravity * Time.deltaTime;
         controller.Move(moveDirection * Time.deltaTime);
     }
-
     void GetJumpInput()
     {
         if (controller.isGrounded)
@@ -104,7 +91,6 @@ public class PlayerController : MonoBehaviour
             
         }
     }
-    
     void GetMouseInput()
     {
         if (Input.GetMouseButton(0))
@@ -125,7 +111,6 @@ public class PlayerController : MonoBehaviour
             }
         }
     }
-
     void GetEnemiesRange()
     {
         enemiesList.Clear();
@@ -137,7 +122,28 @@ public class PlayerController : MonoBehaviour
             }
         }
     }
-    
+    public void PlayerGetHit(float damage)
+    {
+        currentHealth -= damage;
+        if (currentHealth > 0)
+        {
+            animator.SetInteger("transition", 6);
+            StartCoroutine(RecoveryFromHit());
+        }
+        else
+        {
+            Die();
+        }
+    }
+    public void Die()
+    {
+        if (currentHealth <= 0)
+        {
+            animator.SetInteger("transition", 7);
+            animator.SetBool("isDead", true);
+            StartCoroutine(DiedCharacter());
+        }
+    }
     IEnumerator JumpUp()
     {
         speed = 2;
@@ -153,7 +159,6 @@ public class PlayerController : MonoBehaviour
         transform.eulerAngles = new Vector3(0, rotation, 0);
         StartCoroutine(StopJump());
     }
-
     IEnumerator Attack()
     {
         if (!isReady)
@@ -170,7 +175,7 @@ public class PlayerController : MonoBehaviour
                 EnemyController enemyC = enemies.GetComponent<EnemyController>();
                 if (enemyC != null)
                 {
-                    enemyC.GetHit(enemyDamage);
+                    enemyC.EnemyGetHit(playerDamage);
                 }
             }
             
@@ -181,7 +186,6 @@ public class PlayerController : MonoBehaviour
             isReady = false;
         }
     }
-    
     IEnumerator StopWalk()
     {
         yield return new WaitForSeconds(.2f);
@@ -191,7 +195,6 @@ public class PlayerController : MonoBehaviour
         moveDirection = Vector3.zero * speed;
         moveDirection = transform.TransformDirection(moveDirection);
     }
-
     IEnumerator StopJump()
     {
         yield return new WaitForSeconds(.85f);
@@ -200,5 +203,16 @@ public class PlayerController : MonoBehaviour
         moveDirection = Vector3.zero * speed;
         moveDirection = transform.TransformDirection(moveDirection);
         speed = 5;
+    }
+    IEnumerator RecoveryFromHit()
+    {
+        yield return new WaitForSeconds(1.2f);
+        animator.SetInteger("transition", 0);
+    }
+    IEnumerator DiedCharacter()
+    {
+        yield return new WaitForSeconds(5f);
+        //Destroy(gameObject);
+        Debug.Log("Morreu");
     }
 }

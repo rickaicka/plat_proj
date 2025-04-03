@@ -12,6 +12,8 @@ public class EnemyController : MonoBehaviour
     public new string name;
     public float lookRadius = 10f;
     public Transform target;
+    public float colliderRadius;
+    public float enemyDamage;
 
     private bool isReady;
     private Animator animator;
@@ -30,7 +32,6 @@ public class EnemyController : MonoBehaviour
         agent = GetComponent<NavMeshAgent>();
         currentHealth = totalHealth;
     }
-
     private void Update()
     {
         if(!animator.GetBool("isDead"))
@@ -38,7 +39,6 @@ public class EnemyController : MonoBehaviour
             CheckDistance();
         }
     }
-
     public void CheckDistance()
     {
         
@@ -56,6 +56,11 @@ public class EnemyController : MonoBehaviour
                 StartCoroutine(Attack());
                 FaceTarget();
             }
+
+            if (distance >= agent.stoppingDistance)
+            {
+                animator.SetBool("isAttacking", false);
+            }
         }
         else
         {
@@ -72,15 +77,12 @@ public class EnemyController : MonoBehaviour
             agent.isStopped = true;
         }
     }
-
-
     public void FaceTarget()
     {
         Vector3 direction = (target.position - transform.position).normalized;
         Quaternion lookRotation = Quaternion.LookRotation(new Vector3(direction.x, 0, direction.z));
         transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, Time.deltaTime * rotationSpeed);
     }
-
     public void MoveToPlayer()
     {
         agent.SetDestination(target.position);
@@ -88,7 +90,7 @@ public class EnemyController : MonoBehaviour
         animator.SetBool("isAttacking", false);
         animator.SetBool("isWalking", true);
     }
-    public void GetHit(float damage)
+    public void EnemyGetHit(float damage)
     {
         currentHealth -= damage;
         if (currentHealth > 0)
@@ -101,8 +103,7 @@ public class EnemyController : MonoBehaviour
             Die();
         }
     }
-
-    void Die()
+    public void Die()
     {
         if (currentHealth <= 0)
         {
@@ -111,20 +112,28 @@ public class EnemyController : MonoBehaviour
             StartCoroutine(DiedCharacter());
         }
     }
-    
+    public void GetPlayer()
+    {
+        foreach (Collider collider in Physics.OverlapSphere(transform.position + transform.forward * colliderRadius, colliderRadius))
+        {
+            if (collider.gameObject.CompareTag("Player"))
+            {
+                Debug.Log("Acertou o Player");
+                //enemiesList.Add(collider.transform);
+            }
+        }
+    }
     IEnumerator RecoveryFromHit()
     {
         yield return new WaitForSeconds(1.2f);
         animator.SetInteger("transition", 0);
     }
-
     IEnumerator DiedCharacter()
     {
         capsuleCollider.enabled = false;
         yield return new WaitForSeconds(5f);
         Destroy(gameObject);
     }
-    
     IEnumerator Attack()
     {
         if (!isReady)
@@ -133,7 +142,9 @@ public class EnemyController : MonoBehaviour
             animator.SetBool("isWalking", false);
             animator.SetBool("isAttacking", true);
             animator.SetInteger("transition", 2);
-            yield return new WaitForSeconds(2f);
+            yield return new WaitForSeconds(.66f);
+            GetPlayer();
+            yield return new WaitForSeconds(1.5f);
             animator.SetBool("isAttacking", false);
             isReady = false;
         }

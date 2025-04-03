@@ -333,10 +333,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: stairs-wood-regular-1m
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7072285424453634589, guid: 9142650d9afcfe74da8de4c1ef55f217, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7990696144729962353, guid: 9142650d9afcfe74da8de4c1ef55f217, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1336752856}
+    - targetCorrespondingSourceObject: {fileID: 7990696144729962353, guid: 9142650d9afcfe74da8de4c1ef55f217, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1336752855}
   m_SourcePrefab: {fileID: 100100000, guid: 9142650d9afcfe74da8de4c1ef55f217, type: 3}
 --- !u!54 &408297337
 Rigidbody:
@@ -860,6 +867,47 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &1336752850 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7990696144729962353, guid: 9142650d9afcfe74da8de4c1ef55f217, type: 3}
+  m_PrefabInstance: {fileID: 382958808}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1336752855
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1336752850}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 26
+  m_Mesh: {fileID: 1606914550361693042, guid: 74ca26887387bf147b3c40a224c04a83, type: 2}
+--- !u!114 &1336752856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1336752850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86df15996814cff45aed711a3ccf2a0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  paintingData: {fileID: 11400000, guid: ef0629f8d5d2e5649afac33b7f9dee33, type: 2}
+  hullData: {fileID: 11400000, guid: 74ca26887387bf147b3c40a224c04a83, type: 2}
 --- !u!54 &1360048677
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1901,8 +1949,9 @@ MonoBehaviour:
   movementSpeed: 5
   rotationSpeed: 5
   name: Fury Name
-  lookRadius: 2.93
+  lookRadius: 4.51
   target: {fileID: 6469919425838486186}
+  colliderRadius: 1
 --- !u!136 &5416126849726306875
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1967,7 +2016,7 @@ NavMeshAgent:
   m_Acceleration: 1.5
   avoidancePriority: 50
   m_AngularSpeed: 120
-  m_StoppingDistance: 1
+  m_StoppingDistance: 1.53
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 1
   m_AutoRepath: 1
